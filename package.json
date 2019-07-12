@@ -1,7 +1,7 @@
 {
   "name": "craftbot-plugin",
   "version": "0.1.0",
-  "homepage": "https://ff14wed.github.io/inspector-plugin",
+  "homepage": "https://ff14wed.github.io/craftbot-plugin",
   "private": true,
   "dependencies": {
     "@blueprintjs/core": "^3.17.1",
