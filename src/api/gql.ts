@@ -121,6 +121,9 @@ export default new class {
         streamID
         type {
           __typename
+          ... on UpdateIDs {
+            characterID
+          }
           ... on UpdateCraftingInfo {
             craftingInfo {
               ...craftingInfo
