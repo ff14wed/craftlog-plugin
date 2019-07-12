@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/craftbot-plugin/static/css/main.1bd4c675.chunk.css",
-    "main.js": "/craftbot-plugin/static/js/main.035afbce.chunk.js",
-    "main.js.map": "/craftbot-plugin/static/js/main.035afbce.chunk.js.map",
+    "main.js": "/craftbot-plugin/static/js/main.dc116865.chunk.js",
+    "main.js.map": "/craftbot-plugin/static/js/main.dc116865.chunk.js.map",
     "runtime~main.js": "/craftbot-plugin/static/js/runtime~main.365a42be.js",
     "runtime~main.js.map": "/craftbot-plugin/static/js/runtime~main.365a42be.js.map",
     "static/css/2.be4b40f0.chunk.css": "/craftbot-plugin/static/css/2.be4b40f0.chunk.css",
     "static/js/2.998a0055.chunk.js": "/craftbot-plugin/static/js/2.998a0055.chunk.js",
     "static/js/2.998a0055.chunk.js.map": "/craftbot-plugin/static/js/2.998a0055.chunk.js.map",
     "index.html": "/craftbot-plugin/index.html",
-    "precache-manifest.2eccbf3aaed42b6ba2230c0a7b26b1d5.js": "/craftbot-plugin/precache-manifest.2eccbf3aaed42b6ba2230c0a7b26b1d5.js",
+    "precache-manifest.5bd9ae9eac80748ea534732fad3ac2de.js": "/craftbot-plugin/precache-manifest.5bd9ae9eac80748ea534732fad3ac2de.js",
     "service-worker.js": "/craftbot-plugin/service-worker.js",
     "static/css/2.be4b40f0.chunk.css.map": "/craftbot-plugin/static/css/2.be4b40f0.chunk.css.map",
     "static/css/main.1bd4c675.chunk.css.map": "/craftbot-plugin/static/css/main.1bd4c675.chunk.css.map",
