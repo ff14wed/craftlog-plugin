@@ -14,7 +14,7 @@ export interface Resources {
 
 export interface Status {
   id: number;
-  extra: number;
+  param: number;
   name: string;
   description: string;
   startedTime: number;
@@ -105,8 +105,8 @@ export default class Entity {
     let l: string[] = [];
     Object.entries(this.statuses).forEach(([idx, s]) => {
       let sName = `${s.id}`;
-      if (s.extra) {
-        sName = `${sName} (${s.extra})`;
+      if (s.param) {
+        sName = `${sName} (${s.param})`;
       }
       l.push(sName);
     });
