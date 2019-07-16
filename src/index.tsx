@@ -6,6 +6,7 @@ import { inject, observer, Provider } from 'mobx-react';
 import streamStore, { PluginParams, StreamStoreProps, streamStoreDefaultProps } from './store/stream';
 
 import App from './components/App';
+import LoadingApp from './components/LoadingApp';
 
 declare global {
   interface Window {
@@ -40,7 +41,10 @@ class Main extends Component<StreamStoreProps> {
   }
 
   render() {
-    return <App />;
+    const { loading, error } = this.props.streamStore;
+
+    if (loading) return <LoadingApp error={error} />;
+    return (<App />);
   }
 }
 

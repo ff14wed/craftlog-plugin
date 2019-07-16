@@ -60,6 +60,13 @@ export default class GQLClient {
     ]);
   }
 
+  public getAPIVersion = async (): Promise<string> => {
+    const data = await executeOperation(
+      this.httpLink, { query: gql.versionQuery },
+    );
+    return data.apiVersion;
+  }
+
   public listStreams = async () => {
     const data = await executeOperation(
       this.httpLink, { query: gql.listStreamsQuery },

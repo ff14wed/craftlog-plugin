@@ -189,6 +189,12 @@ export default new class {
     ${this.resourcesFragment}
   `;
 
+  versionQuery = gql`
+    query Version {
+      apiVersion
+    }
+  `;
+
   streamQuery = gql`
     query GetStream($streamID: Int!) {
       stream(streamID: $streamID) {
