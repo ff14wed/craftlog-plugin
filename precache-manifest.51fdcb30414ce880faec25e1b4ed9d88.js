@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d1e8dfb41cdab3f96081974918ad2e66",
+    "revision": "a86650a2c7b0290b13397f2af5ef112c",
     "url": "/craftbot-plugin/index.html"
   },
   {
