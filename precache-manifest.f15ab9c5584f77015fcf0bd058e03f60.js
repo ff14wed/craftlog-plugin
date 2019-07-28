@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ab1fac575981d3c99459e8cad12bccc",
+    "revision": "d1e8dfb41cdab3f96081974918ad2e66",
     "url": "/craftbot-plugin/index.html"
   },
   {
-    "revision": "4d8f5c90121220ae3bc3",
+    "revision": "74566888aed5b59dd880",
     "url": "/craftbot-plugin/static/css/2.be4b40f0.chunk.css"
   },
   {
-    "revision": "eb6f448fc93343f15a83",
+    "revision": "8889819c7b65263bdac0",
     "url": "/craftbot-plugin/static/css/main.1bd4c675.chunk.css"
   },
   {
-    "revision": "4d8f5c90121220ae3bc3",
-    "url": "/craftbot-plugin/static/js/2.f39b8d57.chunk.js"
+    "revision": "74566888aed5b59dd880",
+    "url": "/craftbot-plugin/static/js/2.691157b7.chunk.js"
   },
   {
-    "revision": "eb6f448fc93343f15a83",
-    "url": "/craftbot-plugin/static/js/main.b189e466.chunk.js"
+    "revision": "8889819c7b65263bdac0",
+    "url": "/craftbot-plugin/static/js/main.997f9c24.chunk.js"
   },
   {
     "revision": "686d1ddab0963f1518c8",
