@@ -104,7 +104,7 @@ export default class Entity {
   @computed get displayStatusList() {
     let l: string[] = [];
     Object.entries(this.statuses).forEach(([idx, s]) => {
-      let sName = `${s.id}`;
+      let sName = `${s.name}`;
       if (s.param) {
         sName = `${sName} (${s.param})`;
       }
