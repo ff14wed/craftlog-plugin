@@ -4,7 +4,6 @@ import { MenuItem, Classes } from '@blueprintjs/core';
 
 import { observer } from 'mobx-react';
 
-import InlineDiv from './InlineDiv';
 import Craft from '../store/craft';
 
 const smallClasses = `${Classes.TEXT_SMALL} ${Classes.TEXT_MUTED}`;
@@ -27,10 +26,10 @@ export default class CraftListItem extends Component<CraftListItemProps> {
 
     let child = (
       <div>
-        <InlineDiv>{craft.recipe.name} </InlineDiv>
-        <InlineDiv className={smallClasses}>({craft.numSteps} steps) - {craft.timestamp}</InlineDiv>
-        {(!craft.failed && craft.completed) && <InlineDiv className={smallClasses}> COMPLETED</InlineDiv>}
-        {craft.failed && <InlineDiv className={smallClasses}> FAILED</InlineDiv>}
+        <span>{craft.recipe.name} </span>
+        <span className={smallClasses}>({craft.numSteps} steps) - {craft.timestamp}</span>
+        {(!craft.failed && craft.completed) && <span className={smallClasses}> COMPLETED</span>}
+        {craft.failed && <span className={smallClasses}> FAILED</span>}
       </div>
     );
 
