@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/craftbot-plugin/static/css/main.1bd4c675.chunk.css",
-    "main.js": "/craftbot-plugin/static/js/main.997f9c24.chunk.js",
-    "main.js.map": "/craftbot-plugin/static/js/main.997f9c24.chunk.js.map",
+    "main.js": "/craftbot-plugin/static/js/main.343edab7.chunk.js",
+    "main.js.map": "/craftbot-plugin/static/js/main.343edab7.chunk.js.map",
     "runtime~main.js": "/craftbot-plugin/static/js/runtime~main.365a42be.js",
     "runtime~main.js.map": "/craftbot-plugin/static/js/runtime~main.365a42be.js.map",
-    "static/css/2.be4b40f0.chunk.css": "/craftbot-plugin/static/css/2.be4b40f0.chunk.css",
-    "static/js/2.691157b7.chunk.js": "/craftbot-plugin/static/js/2.691157b7.chunk.js",
-    "static/js/2.691157b7.chunk.js.map": "/craftbot-plugin/static/js/2.691157b7.chunk.js.map",
+    "static/css/2.c801878d.chunk.css": "/craftbot-plugin/static/css/2.c801878d.chunk.css",
+    "static/js/2.59b8631e.chunk.js": "/craftbot-plugin/static/js/2.59b8631e.chunk.js",
+    "static/js/2.59b8631e.chunk.js.map": "/craftbot-plugin/static/js/2.59b8631e.chunk.js.map",
     "index.html": "/craftbot-plugin/index.html",
-    "precache-manifest.51fdcb30414ce880faec25e1b4ed9d88.js": "/craftbot-plugin/precache-manifest.51fdcb30414ce880faec25e1b4ed9d88.js",
+    "precache-manifest.787f062918c69725aecd99a9f9031370.js": "/craftbot-plugin/precache-manifest.787f062918c69725aecd99a9f9031370.js",
     "service-worker.js": "/craftbot-plugin/service-worker.js",
-    "static/css/2.be4b40f0.chunk.css.map": "/craftbot-plugin/static/css/2.be4b40f0.chunk.css.map",
+    "static/css/2.c801878d.chunk.css.map": "/craftbot-plugin/static/css/2.c801878d.chunk.css.map",
     "static/css/main.1bd4c675.chunk.css.map": "/craftbot-plugin/static/css/main.1bd4c675.chunk.css.map",
-    "static/media/App.css": "/craftbot-plugin/static/media/icons-20.90247cfd.ttf"
+    "static/media/App.css": "/craftbot-plugin/static/media/icons-20.cef8cdbb.woff"
   }
 }
