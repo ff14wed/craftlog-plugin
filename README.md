@@ -1,6 +1,6 @@
-# Craftbot
+# Craftlog
 
-Craftbot keeps track of your current and past crafts. You can see
+Craftlog keeps track of your current and past crafts. You can see
 the events of your craft live.
 
 Using this tool is as simple as [adding it to Aetherometer](#installation).
@@ -19,20 +19,15 @@ Ever had a crafting macro fail you by using `Great Strides` on an
 proc? Well now you can comfortably watch Netflix without having to
 keep your eyes glued on the game while crafting!
 
-## This isn't an Actual Bot
-
-Despite it being named this way, Craftbot does not actually automate
-anything ingame. We don't break the ToS that way. ;)
-
 ## Installation
 
 1. Go to Settings in Aetherometer
 2. Check the streams (or process IDs) that you would like to inspect.
 3. Fill in:
-    - Plugin Name: Craftbot
-    - Plugin URL: https://ff14wed.github.io/craftbot-plugin/
+    - Plugin Name: Craftlog
+    - Plugin URL: https://ff14wed.github.io/craftlog-plugin/
 4. Click Add Plugin
-5. You should now be able to navigate to Craftbot and start using it.
+5. You should now be able to navigate to Craftlog and start using it.
 
 ## For Developers
 
