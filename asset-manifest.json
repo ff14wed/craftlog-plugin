@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/craftbot-plugin/static/css/main.1bd4c675.chunk.css",
-    "main.js": "/craftbot-plugin/static/js/main.343edab7.chunk.js",
-    "main.js.map": "/craftbot-plugin/static/js/main.343edab7.chunk.js.map",
-    "runtime~main.js": "/craftbot-plugin/static/js/runtime~main.365a42be.js",
-    "runtime~main.js.map": "/craftbot-plugin/static/js/runtime~main.365a42be.js.map",
-    "static/css/2.c801878d.chunk.css": "/craftbot-plugin/static/css/2.c801878d.chunk.css",
-    "static/js/2.59b8631e.chunk.js": "/craftbot-plugin/static/js/2.59b8631e.chunk.js",
-    "static/js/2.59b8631e.chunk.js.map": "/craftbot-plugin/static/js/2.59b8631e.chunk.js.map",
-    "index.html": "/craftbot-plugin/index.html",
-    "precache-manifest.787f062918c69725aecd99a9f9031370.js": "/craftbot-plugin/precache-manifest.787f062918c69725aecd99a9f9031370.js",
-    "service-worker.js": "/craftbot-plugin/service-worker.js",
-    "static/css/2.c801878d.chunk.css.map": "/craftbot-plugin/static/css/2.c801878d.chunk.css.map",
-    "static/css/main.1bd4c675.chunk.css.map": "/craftbot-plugin/static/css/main.1bd4c675.chunk.css.map",
-    "static/media/App.css": "/craftbot-plugin/static/media/icons-20.cef8cdbb.woff"
+    "main.css": "/craftlog-plugin/static/css/main.1bd4c675.chunk.css",
+    "main.js": "/craftlog-plugin/static/js/main.343edab7.chunk.js",
+    "main.js.map": "/craftlog-plugin/static/js/main.343edab7.chunk.js.map",
+    "runtime~main.js": "/craftlog-plugin/static/js/runtime~main.8dd718cc.js",
+    "runtime~main.js.map": "/craftlog-plugin/static/js/runtime~main.8dd718cc.js.map",
+    "static/css/2.fcda0e54.chunk.css": "/craftlog-plugin/static/css/2.fcda0e54.chunk.css",
+    "static/js/2.7a40584b.chunk.js": "/craftlog-plugin/static/js/2.7a40584b.chunk.js",
+    "static/js/2.7a40584b.chunk.js.map": "/craftlog-plugin/static/js/2.7a40584b.chunk.js.map",
+    "index.html": "/craftlog-plugin/index.html",
+    "precache-manifest.676c2ab74f9314b5e5db2cbae40826a8.js": "/craftlog-plugin/precache-manifest.676c2ab74f9314b5e5db2cbae40826a8.js",
+    "service-worker.js": "/craftlog-plugin/service-worker.js",
+    "static/css/2.fcda0e54.chunk.css.map": "/craftlog-plugin/static/css/2.fcda0e54.chunk.css.map",
+    "static/css/main.1bd4c675.chunk.css.map": "/craftlog-plugin/static/css/main.1bd4c675.chunk.css.map",
+    "static/media/App.css": "/craftlog-plugin/static/media/icons-20.cef8cdbb.woff"
   }
 }
