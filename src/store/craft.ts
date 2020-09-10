@@ -11,7 +11,7 @@ function deltaString(delta: number) {
   return `(${delta})`;
 }
 
-export type ConditionName = "Normal" | "Good" | "Excellent" | "Poor";
+export type ConditionName = "Normal" | "Good" | "Excellent" | "Poor" | "Centered" | "Sturdy" | "Pliant";
 
 function toConditionName(condition: number): ConditionName {
   switch (condition) {
@@ -21,6 +21,12 @@ function toConditionName(condition: number): ConditionName {
       return "Good";
     case 3:
       return "Excellent";
+    case 5:
+      return "Centered";
+    case 6:
+      return "Sturdy";
+    case 7:
+      return "Pliant";
   }
   return "Poor";
 }
