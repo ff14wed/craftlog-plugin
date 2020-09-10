@@ -11,7 +11,6 @@ Using this tool is as simple as [adding it to Aetherometer](#installation).
 
 - Displays current CP, actions used, condition procs, and recipe level.
 - Tracks Progress, Quality, and Durability stats for a craft.
-- **New** Tracks reuse procs.
 - Detects when your craft was completed successfully or failed.
 
 Ever had a crafting macro fail you by using `Great Strides` on an
