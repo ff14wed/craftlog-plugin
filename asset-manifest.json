@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/craftlog-plugin/static/css/main.1bd4c675.chunk.css",
-    "main.js": "/craftlog-plugin/static/js/main.54ba833f.chunk.js",
-    "main.js.map": "/craftlog-plugin/static/js/main.54ba833f.chunk.js.map",
+    "main.js": "/craftlog-plugin/static/js/main.3f492b23.chunk.js",
+    "main.js.map": "/craftlog-plugin/static/js/main.3f492b23.chunk.js.map",
     "runtime~main.js": "/craftlog-plugin/static/js/runtime~main.8dd718cc.js",
     "runtime~main.js.map": "/craftlog-plugin/static/js/runtime~main.8dd718cc.js.map",
     "static/css/2.fcda0e54.chunk.css": "/craftlog-plugin/static/css/2.fcda0e54.chunk.css",
     "static/js/2.7a40584b.chunk.js": "/craftlog-plugin/static/js/2.7a40584b.chunk.js",
     "static/js/2.7a40584b.chunk.js.map": "/craftlog-plugin/static/js/2.7a40584b.chunk.js.map",
     "index.html": "/craftlog-plugin/index.html",
-    "precache-manifest.39d59b3bd175e0b482675e46b6a1f118.js": "/craftlog-plugin/precache-manifest.39d59b3bd175e0b482675e46b6a1f118.js",
+    "precache-manifest.719b3cd17a30e666ee7c21247b6a5e08.js": "/craftlog-plugin/precache-manifest.719b3cd17a30e666ee7c21247b6a5e08.js",
     "service-worker.js": "/craftlog-plugin/service-worker.js",
     "static/css/2.fcda0e54.chunk.css.map": "/craftlog-plugin/static/css/2.fcda0e54.chunk.css.map",
     "static/css/main.1bd4c675.chunk.css.map": "/craftlog-plugin/static/css/main.1bd4c675.chunk.css.map",
