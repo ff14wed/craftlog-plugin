@@ -11,7 +11,8 @@ function deltaString(delta: number) {
   return `(${delta})`;
 }
 
-export type ConditionName = "Normal" | "Good" | "Excellent" | "Poor" | "Centered" | "Sturdy" | "Pliant";
+export type ConditionName = "Normal" | "Good" | "Excellent" | "Poor" |
+  "Centered" | "Sturdy" | "Pliant" | "Malleable" | "Primed" | "Unknown";
 
 function toConditionName(condition: number): ConditionName {
   switch (condition) {
@@ -21,14 +22,21 @@ function toConditionName(condition: number): ConditionName {
       return "Good";
     case 3:
       return "Excellent";
+    case 4:
+      return "Poor"
     case 5:
       return "Centered";
     case 6:
       return "Sturdy";
     case 7:
       return "Pliant";
+    case 8:
+      return "Malleable";
+    case 9:
+      return "Primed";
   }
-  return "Poor";
+  console.log("Unknown condition:", condition)
+  return "Unknown";
 }
 
 export interface Recipe {
