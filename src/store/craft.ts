@@ -123,9 +123,12 @@ export default class Craft {
   @observable reuseProc = false;
 
   constructor(initialCraftInfo: CraftInfo) {
-    let { recipe, stepNum } = initialCraftInfo;
+    let { recipe, stepNum, currentCondition, previousCondition, durability } = initialCraftInfo;
     this.recipe = recipe;
     this.stepNum = stepNum;
+    this.currentCondition = currentCondition;
+    this.previousCondition = previousCondition;
+    this.durability = durability;
 
     this.date = Date.now();
   }
