@@ -1,5 +1,7 @@
 # Craftlog
 
+[![GitHub Pages](https://github.com/ff14wed/craftlog-plugin/actions/workflows/build.yml/badge.svg)](https://github.com/ff14wed/craftlog-plugin/actions/workflows/build.yml)
+
 Craftlog keeps track of your current and past crafts. You can see
 the events of your craft live.
 
