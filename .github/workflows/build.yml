@@ -21,8 +21,8 @@ jobs:
       with:
         node-version: 16.x
         cache: 'npm'
-        
-    - run: yarn run build
+
+    - run: yarn install && yarn run build
     
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
