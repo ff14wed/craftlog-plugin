@@ -55,12 +55,12 @@ export default class CraftHistory extends Component<StreamStoreProps> {
             <HTMLTable condensed interactive striped>
               <thead>
                 <tr>
-                  <th>Step Num</th>
+                  <th>Step</th>
                   <th>Durability</th>
                   <th>CP</th>
                   <th>Progress</th>
                   <th>Quality</th>
-                  <th>HQ Chance</th>
+                  <th>HQ %</th>
                   <th>Condition</th>
                   <th>Action</th>
                 </tr>
@@ -69,8 +69,8 @@ export default class CraftHistory extends Component<StreamStoreProps> {
                 {selectedCraft.history.map((c: DisplayCraftInfo) =>
                   <tr key={c.id}>
                     <th>{c.StepNum - 1}</th>
-                    <th>{c.Durability}</th>
                     <th>{c.CP}</th>
+                    <th>{c.Durability}</th>
                     <th>{c.Progress}</th>
                     <th>{c.Quality}</th>
                     <th>{c.HQChance}</th>
