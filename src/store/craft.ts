@@ -71,7 +71,8 @@ export interface CraftInfo {
   currentCondition: number;
   previousCondition: number;
 
-  reuseProc: boolean;
+  completed: boolean;
+  failed: boolean;
 }
 
 export interface DisplayCraftInfo {
@@ -90,7 +91,6 @@ export interface DisplayCraftInfo {
   PreviousCondition: ConditionName;
   CurrentCondition: ConditionName;
   LastCraftAction: string;
-  ReuseProc: string;
 }
 
 
@@ -120,8 +120,6 @@ export default class Craft {
   @observable completed = false;
   @observable failed = false;
 
-  @observable reuseProc = false;
-
   constructor(initialCraftInfo: CraftInfo) {
     let { recipe, stepNum, currentCondition, previousCondition, durability } = initialCraftInfo;
     this.recipe = recipe;
@@ -134,19 +132,11 @@ export default class Craft {
   }
 
   @action craftingEvent(craftingInfo: CraftInfo) {
-    if (craftingInfo.stepNum === 0) {
-      this.failed = true;
-      return;
-    }
     if (craftingInfo.lastCraftActionID <= 0) {
       return;
     }
 
-    if (craftingInfo.stepNum === this.stepNum) {
-      this.completed = true;
-    } else {
-      this.stepNum = craftingInfo.stepNum;
-    }
+    this.stepNum = craftingInfo.stepNum;
 
     this.durability = craftingInfo.durability;
     this.durabilityDelta = craftingInfo.durabilityDelta;
@@ -165,7 +155,8 @@ export default class Craft {
     this.lastCraftActionID = craftingInfo.lastCraftActionID;
     this.lastCraftActionName = craftingInfo.lastCraftActionName;
 
-    this.reuseProc = craftingInfo.reuseProc;
+    this.completed = craftingInfo.completed;
+    this.failed = craftingInfo.failed;
 
     let hist = Object.assign({}, this.info);
     hist.id = `${Date.now()}`;
@@ -191,8 +182,6 @@ export default class Craft {
   @computed get info(): DisplayCraftInfo {
     return {
       id: this.id,
-      Completed: `${this.completed}`,
-      Failed: `${this.failed}`,
 
       RecipeID: this.recipe.id,
       RecipeName: this.recipe.name,
@@ -205,7 +194,9 @@ export default class Craft {
       PreviousCondition: toConditionName(this.previousCondition),
       CurrentCondition: toConditionName(this.currentCondition),
       LastCraftAction: `${this.lastCraftActionName} (${this.lastCraftActionID})`,
-      ReuseProc: `${this.reuseProc}`,
+
+      Completed: `${this.completed}`,
+      Failed: `${this.failed}`,
     }
   }
 }

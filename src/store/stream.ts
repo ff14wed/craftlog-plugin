@@ -36,7 +36,7 @@ class Stream {
 
     const apiVersion = await this.gqlClient.getAPIVersion();
 
-    if (!semver.satisfies(apiVersion, '>=0.2.0-beta', { includePrerelease: true })) {
+    if (!semver.satisfies(apiVersion, '>=0.3.1', { includePrerelease: true })) {
       this.error = "Your version of Aetherometer is no longer supported by " +
         "this plugin. Please update to a newer version.";
       return;

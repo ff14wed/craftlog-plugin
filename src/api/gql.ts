@@ -95,7 +95,8 @@ export default new class {
       currentCondition
       previousCondition
 
-      reuseProc
+      completed
+      failed
     }
   `;
 
