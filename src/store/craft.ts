@@ -77,13 +77,12 @@ export interface CraftInfo {
 
 export interface DisplayCraftInfo {
   id: string;
-  Completed: string;
-  Failed: string;
 
   RecipeID: number;
   RecipeName: string;
   RecipeLevel: number;
   StepNum: number;
+  CP: string;
   Durability: string;
   Progress: string;
   Quality: string;
@@ -91,6 +90,9 @@ export interface DisplayCraftInfo {
   PreviousCondition: ConditionName;
   CurrentCondition: ConditionName;
   LastCraftAction: string;
+
+  Completed: string;
+  Failed: string;
 }
 
 
@@ -100,6 +102,8 @@ export default class Craft {
 
   @observable history: DisplayCraftInfo[] = [];
   @observable stepNum = 0;
+  @observable cp = 0;
+  @observable maxCP = 0;
 
   @observable durability = 0;
   @observable durabilityDelta = 0;
@@ -163,6 +167,11 @@ export default class Craft {
     this.history.push(hist);
   }
 
+  @action updateCP(cp: number, maxCP: number) {
+    this.cp = cp;
+    this.maxCP = maxCP;
+  }
+
   @computed get id() {
     return dayjs(this.date).format();
   }
@@ -187,6 +196,7 @@ export default class Craft {
       RecipeName: this.recipe.name,
       RecipeLevel: this.recipe.recipeLevel,
       StepNum: this.stepNum,
+      CP: `${this.cp} / ${this.maxCP}`,
       Durability: `${this.durability} / ${this.recipe.durability} ${deltaString(this.durabilityDelta)}`,
       Progress: `${this.progress} / ${this.recipe.difficulty} ${deltaString(this.progressDelta)}`,
       Quality: `${this.quality} / ${this.recipe.quality} ${deltaString(this.qualityDelta)}`,

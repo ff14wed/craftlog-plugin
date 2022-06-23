@@ -94,6 +94,10 @@ class Stream {
               this.craftHistory.set(newCraft.id, newCraft);
               this.currentCraftID = newCraft.id;
             }
+            let e = this.characterEntity;
+            if (this.currentCraft && e) {
+              this.currentCraft.updateCP(e.cp, e.maxCP);
+            }
             break;
         }
       }));

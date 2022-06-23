@@ -57,11 +57,11 @@ export default class CraftHistory extends Component<StreamStoreProps> {
                 <tr>
                   <th>Step Num</th>
                   <th>Durability</th>
+                  <th>CP</th>
                   <th>Progress</th>
                   <th>Quality</th>
                   <th>HQ Chance</th>
                   <th>Condition</th>
-                  <th>Next Condition</th>
                   <th>Action</th>
                 </tr>
               </thead>
@@ -70,11 +70,11 @@ export default class CraftHistory extends Component<StreamStoreProps> {
                   <tr key={c.id}>
                     <th>{c.StepNum - 1}</th>
                     <th>{c.Durability}</th>
+                    <th>{c.CP}</th>
                     <th>{c.Progress}</th>
                     <th>{c.Quality}</th>
                     <th>{c.HQChance}</th>
                     <th>{c.PreviousCondition}</th>
-                    <th>{c.CurrentCondition}</th>
                     <th>{c.LastCraftAction} </th>
                   </tr>
                 )}
