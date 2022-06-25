@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac149429c3df228214fdb1a90236deba",
+    "revision": "928127daafb5206f768a92f9cd96f052",
     "url": "/craftlog-plugin/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/craftlog-plugin/static/css/2.fcda0e54.chunk.css"
   },
   {
-    "revision": "13d49534295953080b04",
+    "revision": "fcf95f0e12a40a5fd8b8",
     "url": "/craftlog-plugin/static/css/main.1bd4c675.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/craftlog-plugin/static/js/2.7a40584b.chunk.js"
   },
   {
-    "revision": "13d49534295953080b04",
-    "url": "/craftlog-plugin/static/js/main.1bd92a81.chunk.js"
+    "revision": "fcf95f0e12a40a5fd8b8",
+    "url": "/craftlog-plugin/static/js/main.3c8cded3.chunk.js"
   },
   {
     "revision": "0a553bc763602c20b091",
