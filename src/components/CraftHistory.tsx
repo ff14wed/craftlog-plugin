@@ -56,8 +56,8 @@ export default class CraftHistory extends Component<StreamStoreProps> {
               <thead>
                 <tr>
                   <th>Step</th>
-                  <th>Durability</th>
                   <th>CP</th>
+                  <th>Durability</th>
                   <th>Progress</th>
                   <th>Quality</th>
                   <th>HQ %</th>
