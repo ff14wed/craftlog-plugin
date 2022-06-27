@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom/client';
 
 import { inject, observer, Provider } from 'mobx-react';
 
+import { FocusStyleManager } from "@blueprintjs/core";
+
 import streamStore, { PluginParams, StreamStoreProps, streamStoreDefaultProps } from './store/stream';
 
 import App from './components/App';
 import LoadingApp from './components/LoadingApp';
+
+FocusStyleManager.onlyShowFocusOnTabs();
 
 declare global {
   interface Window {

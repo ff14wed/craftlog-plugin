@@ -10,7 +10,7 @@ import CraftList from './CraftList';
 import CraftHistory from './CraftHistory';
 
 const AppRoot = styled.div`
-  background-color: ${Colors.DARK_GRAY3};
+  background-color: ${Colors.DARK_GRAY1};
   height: 100vh;
   overflow-y: auto;
 
@@ -30,7 +30,7 @@ const AppRoot = styled.div`
 export default class App extends React.Component {
   render() {
     return (
-      <AppRoot className="bp3-dark">
+      <AppRoot className="bp4-dark">
         <Details />
         <CraftList />
         <CraftHistory />

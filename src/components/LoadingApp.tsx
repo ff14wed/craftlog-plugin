@@ -21,7 +21,7 @@ export default class LoadingApp extends Component<LoadingAppProps> {
   render() {
     if (this.props.error) {
       return (
-        <AppRoot className="bp3-dark">
+        <AppRoot className="bp4-dark">
           <NonIdealState
             icon="warning-sign"
             title={this.props.error}
@@ -30,7 +30,7 @@ export default class LoadingApp extends Component<LoadingAppProps> {
       )
     }
     return (
-      <AppRoot className="bp3-dark">
+      <AppRoot className="bp4-dark">
         <NonIdealState
           icon={<Spinner intent="primary" />}
           title="Loading..."
