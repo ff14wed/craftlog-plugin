@@ -1,4 +1,4 @@
-import { observable, action, computed } from 'mobx';
+import { observable, action, computed, makeObservable } from 'mobx';
 
 export interface ClassJob {
   id: number;
@@ -53,6 +53,8 @@ export default class Entity {
   @observable statuses: { [idx: number]: Status } = {};
 
   constructor(ent: EntitySpec) {
+    makeObservable(this);
+
     let {
       id, index, name, level, lastAction,
     } = ent;

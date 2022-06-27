@@ -1,4 +1,4 @@
-import { observable, action, computed } from 'mobx';
+import { observable, action, computed, makeObservable } from 'mobx';
 
 import dayjs from 'dayjs';
 import LocalizedFormat from 'dayjs/plugin/localizedFormat'
@@ -125,6 +125,8 @@ export default class Craft {
   @observable failed = false;
 
   constructor(initialCraftInfo: CraftInfo) {
+    makeObservable(this);
+
     let { recipe, stepNum, currentCondition, previousCondition, durability } = initialCraftInfo;
     this.recipe = recipe;
     this.stepNum = stepNum;

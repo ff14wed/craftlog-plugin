@@ -1,4 +1,4 @@
-import { action, observable, computed } from 'mobx';
+import { action, observable, computed, makeObservable, runInAction } from 'mobx';
 import GQLClient from '../api/gqlClient';
 
 import Entity, { EntitySpec } from './entity';
@@ -31,6 +31,10 @@ class Stream {
   @observable entities = new Map<number, Entity>();
   @observable characterID = 0;
 
+  constructor() {
+    makeObservable(this);
+  }
+
   @action async initialize(pluginParams: PluginParams) {
     this.gqlClient = new GQLClient(pluginParams.apiURL, pluginParams.apiToken);
 
@@ -54,13 +58,15 @@ class Stream {
 
     const stream = await this.gqlClient.getStream(streamID);
 
-    const { entities, characterID } = stream;
-    this.characterID = characterID;
-    for (let ent of entities) {
-      this.entities.set(ent.id, new Entity(ent));
-    }
+    runInAction(() => {
+      const { entities, characterID } = stream;
+      this.characterID = characterID;
+      for (let ent of entities) {
+        this.entities.set(ent.id, new Entity(ent));
+      }
 
-    this.loading = false;
+      this.loading = false;
+    });
   }
 
   async getActiveStreamID(pluginParams: PluginParams) {
