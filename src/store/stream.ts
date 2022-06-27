@@ -159,6 +159,19 @@ class Stream {
   @computed get currentCraft() {
     return this.craftHistory.get(this.currentCraftID);
   }
+
+  async downloadHistory() {
+    let blob = JSON.stringify(this.craftHistory, null, 4);
+    const url = window.URL.createObjectURL(new Blob([blob]));
+    const a = document.createElement('a');
+    a.style.display = "none";
+    a.href = url;
+    a.download = `craftlog-${(new Date()).toISOString()}.json`;
+    document.body.appendChild(a);
+    a.click();
+    window.URL.revokeObjectURL(url);
+    a.remove();
+  }
 }
 
 export default new Stream();

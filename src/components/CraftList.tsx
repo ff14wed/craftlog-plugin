@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { UL, Elevation, Colors, H5 } from '@blueprintjs/core';
+import { UL, Elevation, Colors, H5, Button } from '@blueprintjs/core';
 import styled from 'styled-components';
 
 import PaddedCard from './PaddedCard';
@@ -28,11 +28,20 @@ const List = styled(UL)`
   }
 `;
 
-export default class CraftListContainer extends Component {
+@inject("streamStore")
+@observer
+export default class CraftListContainer extends Component<StreamStoreProps> {
+  static defaultProps = streamStoreDefaultProps;
+
+  downloadHistory = () => {
+    this.props.streamStore.downloadHistory();
+  }
+
   render() {
     return (
       <PaddedCard elevation={Elevation.THREE}>
         <H5>Craft Histories</H5>
+        <Button onClick={this.downloadHistory}>Download History</Button>
         <CraftList />
       </PaddedCard>
     );
