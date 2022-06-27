@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/craftlog-plugin/precache-manifest.762aab95ab78733ac065f98ef049d4dd.js"
+  "/craftlog-plugin/precache-manifest.ccd129964208234acc79a000b8cfc3d1.js"
 );
 
 self.addEventListener('message', (event) => {

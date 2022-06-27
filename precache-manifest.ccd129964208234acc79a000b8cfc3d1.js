@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b2aa0e5da9d644837c1caba39120fe5d",
+    "revision": "280d6b73b0101af1c4a24cba655765fa",
     "url": "/craftlog-plugin/index.html"
   },
   {
-    "revision": "798c59755ead5c05a648",
+    "revision": "286f54fa3034f190c874",
     "url": "/craftlog-plugin/static/css/2.fcda0e54.chunk.css"
   },
   {
-    "revision": "fc6e501bff5222316212",
+    "revision": "bb0d5c259532a451d765",
     "url": "/craftlog-plugin/static/css/main.1bd4c675.chunk.css"
   },
   {
-    "revision": "798c59755ead5c05a648",
-    "url": "/craftlog-plugin/static/js/2.7a40584b.chunk.js"
+    "revision": "286f54fa3034f190c874",
+    "url": "/craftlog-plugin/static/js/2.80d4aa53.chunk.js"
   },
   {
-    "revision": "fc6e501bff5222316212",
-    "url": "/craftlog-plugin/static/js/main.74e23654.chunk.js"
+    "revision": "bb0d5c259532a451d765",
+    "url": "/craftlog-plugin/static/js/main.6afdaea7.chunk.js"
   },
   {
     "revision": "0a553bc763602c20b091",
