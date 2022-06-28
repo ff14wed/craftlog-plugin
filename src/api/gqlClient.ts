@@ -34,11 +34,6 @@ export default class GQLClient {
   private client: ApolloClient<NormalizedCacheObject>;
 
   constructor(apiURL: string, apiToken?: string) {
-    let httpOpts = (apiToken) ? {
-      headers: {
-        Authorization: apiToken,
-      }
-    } : {};
     let wsConnectionParams = (apiToken) ? () => ({
       authorization: apiToken,
     }) : undefined;
