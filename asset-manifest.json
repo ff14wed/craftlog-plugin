@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/craftlog-plugin/static/css/main.1bd4c675.chunk.css",
-    "main.js": "/craftlog-plugin/static/js/main.6afdaea7.chunk.js",
-    "main.js.map": "/craftlog-plugin/static/js/main.6afdaea7.chunk.js.map",
-    "runtime~main.js": "/craftlog-plugin/static/js/runtime~main.8dd718cc.js",
-    "runtime~main.js.map": "/craftlog-plugin/static/js/runtime~main.8dd718cc.js.map",
-    "static/css/2.fcda0e54.chunk.css": "/craftlog-plugin/static/css/2.fcda0e54.chunk.css",
-    "static/js/2.80d4aa53.chunk.js": "/craftlog-plugin/static/js/2.80d4aa53.chunk.js",
-    "static/js/2.80d4aa53.chunk.js.map": "/craftlog-plugin/static/js/2.80d4aa53.chunk.js.map",
+    "main.css": "/craftlog-plugin/static/css/main.28012db1.css",
+    "main.js": "/craftlog-plugin/static/js/main.fd61529a.js",
+    "static/media/blueprint-icons-20.eot?": "/craftlog-plugin/static/media/blueprint-icons-20.12b358c6d8dbe8756615.eot",
+    "static/media/blueprint-icons-20.ttf?": "/craftlog-plugin/static/media/blueprint-icons-20.3fd95ab7e829aa1d9ba0.ttf",
+    "static/media/blueprint-icons-16.eot?": "/craftlog-plugin/static/media/blueprint-icons-16.c98f9776ee5bbd2aa668.eot",
+    "static/media/blueprint-icons-16.ttf?": "/craftlog-plugin/static/media/blueprint-icons-16.74dbfc60db44217ef15d.ttf",
+    "static/media/blueprint-icons-20.woff?": "/craftlog-plugin/static/media/blueprint-icons-20.68fac169b07ae937267a.woff",
+    "static/media/blueprint-icons-16.woff?": "/craftlog-plugin/static/media/blueprint-icons-16.f5fd4d64b81b471c0402.woff",
+    "static/media/blueprint-icons-20.woff2?": "/craftlog-plugin/static/media/blueprint-icons-20.14aa945151de662f422e.woff2",
+    "static/media/blueprint-icons-16.woff2?": "/craftlog-plugin/static/media/blueprint-icons-16.a12444a68ba6fe9089da.woff2",
     "index.html": "/craftlog-plugin/index.html",
-    "precache-manifest.ccd129964208234acc79a000b8cfc3d1.js": "/craftlog-plugin/precache-manifest.ccd129964208234acc79a000b8cfc3d1.js",
-    "service-worker.js": "/craftlog-plugin/service-worker.js",
-    "static/css/2.fcda0e54.chunk.css.map": "/craftlog-plugin/static/css/2.fcda0e54.chunk.css.map",
-    "static/css/main.1bd4c675.chunk.css.map": "/craftlog-plugin/static/css/main.1bd4c675.chunk.css.map",
-    "static/media/App.css": "/craftlog-plugin/static/media/icons-20.cef8cdbb.woff"
-  }
+    "main.28012db1.css.map": "/craftlog-plugin/static/css/main.28012db1.css.map",
+    "main.fd61529a.js.map": "/craftlog-plugin/static/js/main.fd61529a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28012db1.css",
+    "static/js/main.fd61529a.js"
+  ]
 }
