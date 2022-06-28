@@ -43,6 +43,7 @@ export interface Recipe {
   id: number;
   name: string;
   recipeLevel: number;
+  itemID: number;
   element: number;
   canHQ: boolean;
   difficulty: number;
@@ -81,6 +82,7 @@ export interface DisplayCraftInfo {
   RecipeID: number;
   RecipeName: string;
   RecipeLevel: number;
+  ItemID: number;
   StepNum: number;
   CP: string;
   Durability: string;
@@ -197,6 +199,7 @@ export default class Craft {
       RecipeID: this.recipe.id,
       RecipeName: this.recipe.name,
       RecipeLevel: this.recipe.recipeLevel,
+      ItemID: this.recipe.itemID,
       StepNum: this.stepNum,
       CP: `${this.cp} / ${this.maxCP}`,
       Durability: `${this.durability} / ${this.recipe.durability} ${deltaString(this.durabilityDelta)}`,

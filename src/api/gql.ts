@@ -70,6 +70,7 @@ export default new class {
         id
         name
         recipeLevel
+        itemID
         element
         canHQ
         difficulty
@@ -210,12 +211,6 @@ export default new class {
       streams {
         id
       }
-    }
-  `;
-
-  hookMutation = gql`
-    mutation SendHookData($req: StreamRequest!) {
-      sendStreamRequest(request: $req)
     }
   `;
 }()
