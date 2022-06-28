@@ -99,6 +99,16 @@ export default class GQLClient {
     return result.data.stream;
   }
 
+  public getCurrentCraft = async (streamID: number): Promise<any> => {
+    const variables = { streamID };
+
+    const result = await this.client.query({ query: gql.currentCraftQuery, variables });
+    if (result.error || result.errors) {
+      console.error("Encountered error getting current craft");
+    }
+    return result.data.stream.craftingInfo;
+  }
+
   public subscribeToStreamEvents = (
     streamID: number, handleStreamEvent: (type: string, data: any) => void
   ) => {

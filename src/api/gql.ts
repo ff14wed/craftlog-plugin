@@ -213,4 +213,15 @@ export default new class {
       }
     }
   `;
+
+  currentCraftQuery = gql`
+    query CurrentCraft($streamID: Int!) {
+      stream(streamID: $streamID) {
+        craftingInfo {
+          ...craftingInfo
+        }
+      }
+    }
+    ${this.craftingInfoFragment}
+  `;
 }()

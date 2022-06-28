@@ -3,6 +3,7 @@ import GQLClient from '../api/gqlClient';
 
 import Entity, { EntitySpec } from './entity';
 import Craft from './craft';
+import type { CraftInfo } from './craft';
 
 import semver from 'semver';
 
@@ -67,6 +68,14 @@ class Stream {
 
       this.loading = false;
     });
+    let c = await this.getCurrentCraft(streamID);
+    if (c) {
+      let newCraft = new Craft(c);
+      runInAction(() => {
+        this.craftHistory.set(newCraft.id, newCraft);
+        this.currentCraftID = newCraft.id;
+      });
+    }
   }
 
   async getActiveStreamID(pluginParams: PluginParams) {
@@ -79,6 +88,10 @@ class Stream {
       }
     }
     return 0;
+  }
+
+  async getCurrentCraft(streamID: number): Promise<CraftInfo> {
+    return await this.gqlClient!.getCurrentCraft(streamID);
   }
 
   @action subscribeToStreamEvents() {
