@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/craftlog-plugin/static/css/main.28012db1.css",
-    "main.js": "/craftlog-plugin/static/js/main.fd61529a.js",
+    "main.js": "/craftlog-plugin/static/js/main.23286a02.js",
     "static/media/blueprint-icons-20.eot?": "/craftlog-plugin/static/media/blueprint-icons-20.12b358c6d8dbe8756615.eot",
     "static/media/blueprint-icons-20.ttf?": "/craftlog-plugin/static/media/blueprint-icons-20.3fd95ab7e829aa1d9ba0.ttf",
     "static/media/blueprint-icons-16.eot?": "/craftlog-plugin/static/media/blueprint-icons-16.c98f9776ee5bbd2aa668.eot",
@@ -12,10 +12,10 @@
     "static/media/blueprint-icons-16.woff2?": "/craftlog-plugin/static/media/blueprint-icons-16.a12444a68ba6fe9089da.woff2",
     "index.html": "/craftlog-plugin/index.html",
     "main.28012db1.css.map": "/craftlog-plugin/static/css/main.28012db1.css.map",
-    "main.fd61529a.js.map": "/craftlog-plugin/static/js/main.fd61529a.js.map"
+    "main.23286a02.js.map": "/craftlog-plugin/static/js/main.23286a02.js.map"
   },
   "entrypoints": [
     "static/css/main.28012db1.css",
-    "static/js/main.fd61529a.js"
+    "static/js/main.23286a02.js"
   ]
 }
